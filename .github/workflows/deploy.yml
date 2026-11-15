@@ -1,0 +1,70 @@
+name: Eliz Scalp Engine Scan & Deploy
+
+on:
+  schedule:
+    # Jalankan pemindaian scalping otomatis setiap 15 menit
+    - cron: '*/15 * * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-scalp-deploy"
+  cancel-in-progress: false
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Unit & Gate Safety Tests
+        run: npm test
+
+      - name: Run Live Multi-Exchange Scalping Scan (Binance / Bybit / Hyperliquid)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+        run: npm run scan
+
+      - name: Commit Updated Signals & Forward Journal
+        run: |
+          git config user.name "eliz-scalp-bot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(scalp): update live triggers & journal [skip ci]"
+            git push
+          else
+            echo "No changes in data/ to commit."
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Static Dashboard Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

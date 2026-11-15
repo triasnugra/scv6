@@ -1,0 +1,16 @@
+{
+  "updatedAt": "2026-11-15T09:25:00.000Z",
+  "logs": [
+    {
+      "timestamp": "2026-11-15T09:25:00.000Z",
+      "symbol": "BTC",
+      "price": 77365.78,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
+      "reasons": [
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+      ]
+    }
+  ]
+}

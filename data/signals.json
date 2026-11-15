@@ -1,0 +1,98 @@
+{
+  "engine": "ELIZ-SCALP // HYDRO ENGINE v1.0",
+  "methodology": "@eliz883 Liquidity Sweeps, Triggers, Custom Fibs (0.25/0.5/0.75) & Orderbook Confluence",
+  "lastUpdatedUtc": "2026-11-15T09:25:00.000Z",
+  "marketRegime": {
+    "btcPrice": 77365.78,
+    "btcRangeHigh": 80500.0,
+    "btcRangeLow": 75800.0,
+    "btcRelativePos": 0.333,
+    "regime": "CHOPPY_RANGE",
+    "altcoinBias": "ALTCOIN_RANGE_EXTREMES_ONLY"
+  },
+  "summary": {
+    "scannedCount": 1,
+    "approvedTriggersCount": 1,
+    "waitOrRejectedCount": 0
+  },
+  "assets": [
+    {
+      "symbol": "BTC",
+      "pair": "BTCUSDT",
+      "category": "MAJOR",
+      "price": 77365.78,
+      "timestamp": "2026-11-15T09:25:00.000Z",
+      "structure": {
+        "range1hHigh": 80500.0,
+        "range1hLow": 75800.0,
+        "relativePosition": 0.333,
+        "inNoTradeMidRange": false,
+        "mondayHigh": 79500.0,
+        "mondayLow": 76200.0,
+        "fib075": 76975.0,
+        "fib0786": 76805.8,
+        "ema20_1h": 77620.0,
+        "ema50_1h": 78150.0,
+        "supportTaps": 1,
+        "resistanceTaps": 1
+      },
+      "liquidity": {
+        "primaryExchange": "BYBIT",
+        "bidWall": {
+          "price": 76500,
+          "usd": 4850000,
+          "strength": 3.4
+        },
+        "askWall": {
+          "price": 80200,
+          "usd": 6120000,
+          "strength": 4.1
+        },
+        "imbalanceRatio": 1.18,
+        "fundingRatePct": 0.0042,
+        "openInterestUsd": 1820000000,
+        "volumeSpike15m": 1.92
+      },
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Stop-Run Deviation & Reclaim (Long)",
+        "entryLow": 76950.0,
+        "entryHigh": 77365.78,
+        "stopLoss": 76380.0,
+        "tp1": 78550.0,
+        "tp2": 80150.0,
+        "rr": 2.83,
+        "stopDistancePct": 1.27,
+        "zoneTaps": 1,
+        "confidenceScore": 89,
+        "confluences": [
+          "Stop-Run Sweep & Reclaim di bawah Key Low",
+          "Monday Low Liquidity Sweep Reclaimed",
+          "Whale Bid Wall $4,850,000 (3.4x)",
+          "Volume Absorption Spike (1.92x)"
+        ]
+      },
+      "gate": {
+        "approved": true,
+        "status": "APPROVED_TRIGGER",
+        "reasons": [
+          "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+        ],
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 787.4,
+          "suggestedIsolatedLeverage": "3x",
+          "executionPlan": "Entry 76950 - 77365.78 | SL 76380 (-1.27%) | TP1 78550 (Close 60%, geser SL ke Break-Even) | TP2 80150"
+        }
+      },
+      "aiReview": {
+        "mode": "GEMINI_HYBRID (ready-for-actions)",
+        "aiVerdict": "EXECUTE",
+        "confidence": 89,
+        "tacticalNote": "Sapuan likuiditas di bawah Monday Low ($76.2k) terkonfirmasi reclaim dengan Bid Wall $4.85M di $76.5k sebagai pelindung invalidasi. Kunci 60% profit di TP1 $78.550 lalu segera geser SL ke Break-Even."
+      }
+    }
+  ]
+}

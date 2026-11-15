@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-11-15T09:25:00.000Z",
+  "stats": {
+    "totalClosed": 0,
+    "wins": 0,
+    "breakevenOrPartial": 0,
+    "losses": 0,
+    "winRatePct": 0,
+    "netRMultiple": 0,
+    "expectancyR": 0
+  },
+  "activeSignals": [],
+  "closedSignals": []
+}

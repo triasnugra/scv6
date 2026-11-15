@@ -1,0 +1,13 @@
+{
+  "name": "eliz-scalp-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Real-Money Crypto Scalping Analysis Engine combining @eliz883 (ElizCrypto) Liquidity & Trigger Methodology with Gemini AI Hybrid Validation for Binance, Bybit & Hyperliquid.",
+  "scripts": {
+    "scan": "node scripts/run-scan.mjs",
+    "test": "node scripts/test-engine.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

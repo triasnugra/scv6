@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-19T06:25:09.810Z",
+  "updatedAt": "2026-11-19T08:00:14.565Z",
   "logs": [
     {
-      "timestamp": "2026-11-19T06:25:09.778Z",
+      "timestamp": "2026-11-19T08:00:14.296Z",
       "symbol": "BTC",
-      "price": 63515.25,
+      "price": 63709.42,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.778Z",
+      "timestamp": "2026-11-19T08:00:14.297Z",
       "symbol": "ETH",
-      "price": 1803.32,
+      "price": 1803.9,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -24,9 +24,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.806Z",
+      "timestamp": "2026-11-19T08:00:14.560Z",
       "symbol": "SOL",
-      "price": 74.84,
+      "price": 74.93,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -35,9 +35,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.806Z",
+      "timestamp": "2026-11-19T08:00:14.560Z",
       "symbol": "PEPE",
-      "price": 0.00000381,
+      "price": 0.00000383,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -46,9 +46,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.807Z",
+      "timestamp": "2026-11-19T08:00:14.561Z",
       "symbol": "INJ",
-      "price": 7.088,
+      "price": 7.205,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.807Z",
+      "timestamp": "2026-11-19T08:00:14.561Z",
       "symbol": "LTC",
-      "price": 44.62,
+      "price": 44.66,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.807Z",
+      "timestamp": "2026-11-19T08:00:14.561Z",
       "symbol": "TRB",
-      "price": 12.92,
+      "price": 12.96,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -79,20 +79,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.807Z",
+      "timestamp": "2026-11-19T08:00:14.561Z",
       "symbol": "HBAR",
-      "price": 0.05555,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
-      "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
-      ]
-    },
-    {
-      "timestamp": "2026-11-19T06:25:09.808Z",
-      "symbol": "ARB",
-      "price": 0.1274,
+      "price": 0.056,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -101,9 +90,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T06:25:09.808Z",
+      "timestamp": "2026-11-19T08:00:14.561Z",
+      "symbol": "ARB",
+      "price": 0.1276,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
+      "reasons": [
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+      ]
+    },
+    {
+      "timestamp": "2026-11-19T08:00:14.562Z",
       "symbol": "SUI",
-      "price": 0.7248,
+      "price": 0.7288,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",

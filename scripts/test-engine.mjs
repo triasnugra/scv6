@@ -8,6 +8,13 @@ import { evaluateExecutionGate } from "../src/gate.mjs";
 
 console.log("Running @eliz883 Scalp Engine Safety & Math Tests...");
 
+// Floating-point safe comparison (hindari 121.39999999999999 !== 121.4)
+const approxEqual = (actual, expected, eps = 1e-6) =>
+  assert.ok(
+    Math.abs(actual - expected) < eps,
+    `Expected ${actual} to be approximately ${expected} (eps=${eps})`
+  );
+
 const mockCandles = Array.from({ length: 50 }, (_, i) => ({
   time: 1700000000000 + i * 3600000,
   open: 100,
@@ -18,11 +25,11 @@ const mockCandles = Array.from({ length: 50 }, (_, i) => ({
 }));
 
 const rangeRes = analyzeRangeAndFibs(mockCandles, 48);
-assert.equal(rangeRes.rangeHigh, 200);
-assert.equal(rangeRes.rangeLow, 100);
-assert.equal(rangeRes.fibs.fib075, 125);
-assert.equal(rangeRes.fibs.fib0786, 121.4);
-assert.equal(rangeRes.relativePosition, 0.25);
+approxEqual(rangeRes.rangeHigh, 200);
+approxEqual(rangeRes.rangeLow, 100);
+approxEqual(rangeRes.fibs.fib075, 125);
+approxEqual(rangeRes.fibs.fib0786, 121.4);
+approxEqual(rangeRes.relativePosition, 0.25);
 
 const midRangeAnalysis = {
   symbol: "BTC",
@@ -76,7 +83,7 @@ const ob = analyzeOrderbookWalls({
     { price: 102.0, size: 70, usd: 7140 }
   ]
 }, 100);
-assert.equal(ob.strongestBidWall.price, 98.5);
-assert.equal(ob.strongestAskWall.price, 102.0);
+approxEqual(ob.strongestBidWall.price, 98.5);
+approxEqual(ob.strongestAskWall.price, 102.0);
 
 console.log("ALL TESTS PASSED SUCCESSFULLY!");

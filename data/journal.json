@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:23:17.567Z",
+  "updatedAt": "2026-11-19T06:24:19.711Z",
   "stats": {
     "totalClosed": 0,
     "wins": 0,
@@ -27,7 +27,7 @@
       "rr": 13.81,
       "stopDistancePct": 0.35,
       "tp1Hit": false,
-      "lastCheckedPrice": 74.91,
+      "lastCheckedPrice": 74.9,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,

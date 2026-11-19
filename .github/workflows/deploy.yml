@@ -2,7 +2,7 @@ name: Eliz Scalp Engine Scan & Deploy
 
 on:
   schedule:
-    # Jalankan pemindaian scalping otomatis setiap 15 menit
+    # Pemindaian otomatis setiap 15 menit
     - cron: '*/15 * * * *'
   push:
     branches:
@@ -28,18 +28,18 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Run Unit & Gate Safety Tests
         run: npm test
 
-      - name: Run Live Multi-Exchange Scalping Scan (Binance / Bybit / Hyperliquid)
+      # Jika bursa/API gagal sesaat, dashboard TETAP ter-deploy dengan data terakhir
+      - name: Run Live Multi-Exchange Scalping Scan
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
@@ -52,10 +52,18 @@ jobs:
           git add data/
           if ! git diff --staged --quiet; then
             git commit -m "chore(scalp): update live triggers & journal [skip ci]"
-            git push
+            git pull --rebase origin main || true
+            git push || echo "Push dilewati (tidak fatal)."
           else
             echo "No changes in data/ to commit."
           fi
+
+      - name: Prepare static site folder
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r data _site/data
+          touch _site/.nojekyll
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
@@ -63,7 +71,7 @@ jobs:
       - name: Upload Static Dashboard Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
       - name: Deploy to GitHub Pages
         id: deployment

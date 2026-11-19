@@ -1,10 +1,21 @@
 {
-  "updatedAt": "2026-11-19T17:18:04.158Z",
+  "updatedAt": "2026-11-19T23:43:02.545Z",
   "logs": [
     {
-      "timestamp": "2026-11-19T17:18:04.153Z",
+      "timestamp": "2026-11-19T23:43:02.541Z",
       "symbol": "BTC",
-      "price": 62368.01,
+      "price": 61896.88,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
+      "reasons": [
+        "STOP TOO TIGHT: Jarak SL 0.15% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
+      ]
+    },
+    {
+      "timestamp": "2026-11-19T23:43:02.541Z",
+      "symbol": "ETH",
+      "price": 1753.14,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "REJECTED_BY_GATE",
@@ -13,20 +24,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.154Z",
-      "symbol": "ETH",
-      "price": 1754.09,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
-      "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.18% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
-      ]
-    },
-    {
-      "timestamp": "2026-11-19T17:18:04.154Z",
+      "timestamp": "2026-11-19T23:43:02.542Z",
       "symbol": "SOL",
-      "price": 72.91,
+      "price": 73.16,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -35,20 +35,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.154Z",
+      "timestamp": "2026-11-19T23:43:02.542Z",
       "symbol": "PEPE",
-      "price": 0.00000375,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.00000371,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.154Z",
+      "timestamp": "2026-11-19T23:43:02.542Z",
       "symbol": "INJ",
-      "price": 7.034,
+      "price": 7.062,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -57,20 +57,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.155Z",
+      "timestamp": "2026-11-19T23:43:02.542Z",
       "symbol": "LTC",
-      "price": 42.55,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 42.22,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.155Z",
+      "timestamp": "2026-11-19T23:43:02.543Z",
       "symbol": "TRB",
-      "price": 12.56,
+      "price": 12.63,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -79,9 +79,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.155Z",
+      "timestamp": "2026-11-19T23:43:02.543Z",
       "symbol": "HBAR",
-      "price": 0.05468,
+      "price": 0.05378,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.156Z",
+      "timestamp": "2026-11-19T23:43:02.543Z",
       "symbol": "ARB",
       "price": 0.1221,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
@@ -101,9 +101,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-19T17:18:04.156Z",
+      "timestamp": "2026-11-19T23:43:02.543Z",
       "symbol": "SUI",
-      "price": 0.7077,
+      "price": 0.7085,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",

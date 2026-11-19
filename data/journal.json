@@ -1,15 +1,96 @@
 {
-  "updatedAt": "2026-11-19T17:18:04.157Z",
+  "updatedAt": "2026-11-19T23:43:02.545Z",
   "stats": {
-    "totalClosed": 0,
+    "totalClosed": 2,
     "wins": 0,
-    "breakevenOrPartial": 0,
-    "losses": 0,
-    "winRatePct": 0,
-    "netRMultiple": 0,
-    "expectancyR": 0
+    "breakevenOrPartial": 1,
+    "losses": 1,
+    "winRatePct": 50,
+    "netRMultiple": -0.1,
+    "expectancyR": -0.05
   },
   "activeSignals": [
+    {
+      "id": "HBAR-LONG-1795131782545",
+      "createdAt": "2026-11-19T23:43:02.545Z",
+      "symbol": "HBAR",
+      "pair": "HBARUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 0.05364,
+      "entryHigh": 0.05378,
+      "initialStopLoss": 0.05321,
+      "stopLoss": 0.05321,
+      "tp1": 0.05492,
+      "tp2": 0.05821,
+      "rr": 7.78,
+      "stopDistancePct": 1.06,
+      "tp1Hit": false,
+      "lastCheckedPrice": 0.05378,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 943.4,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 0.05364 - 0.05378 | SL 0.05321 (-1.06%) | TP1 0.05492 (Close 60%, geser SL ke Break-Even) | TP2 0.05821"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    },
+    {
+      "id": "LTC-LONG-1795131782545",
+      "createdAt": "2026-11-19T23:43:02.545Z",
+      "symbol": "LTC",
+      "pair": "LTCUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 42.1892,
+      "entryHigh": 42.22,
+      "initialStopLoss": 42.0968,
+      "stopLoss": 42.0968,
+      "tp1": 42.4665,
+      "tp2": 45.3037,
+      "rr": 25.02,
+      "stopDistancePct": 0.29,
+      "tp1Hit": false,
+      "lastCheckedPrice": 42.22,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 3448.28,
+        "suggestedIsolatedLeverage": "7x",
+        "executionPlan": "Entry 42.1892 - 42.22 | SL 42.0968 (-0.29%) | TP1 42.4665 (Close 60%, geser SL ke Break-Even) | TP2 45.3037"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    },
+    {
+      "id": "PEPE-LONG-1795131782545",
+      "createdAt": "2026-11-19T23:43:02.545Z",
+      "symbol": "PEPE",
+      "pair": "PEPEUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 0.00000369,
+      "entryHigh": 0.00000371,
+      "initialStopLoss": 0.00000364,
+      "stopLoss": 0.00000364,
+      "tp1": 0.00000385,
+      "tp2": 0.00000404,
+      "rr": 4.51,
+      "stopDistancePct": 1.96,
+      "tp1Hit": false,
+      "lastCheckedPrice": 0.00000371,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 510.2,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 0.00000369 - 0.00000371 | SL 0.00000364 (-1.96%) | TP1 0.00000385 (Close 60%, geser SL ke Break-Even) | TP2 0.00000404"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    },
     {
       "id": "SUI-LONG-1795108684157",
       "createdAt": "2026-11-19T17:18:04.157Z",
@@ -27,7 +108,7 @@
       "rr": 8.34,
       "stopDistancePct": 0.59,
       "tp1Hit": false,
-      "lastCheckedPrice": 0.7077,
+      "lastCheckedPrice": 0.7085,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,
@@ -65,33 +146,6 @@
       "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
     },
     {
-      "id": "HBAR-LONG-1795108684157",
-      "createdAt": "2026-11-19T17:18:04.157Z",
-      "symbol": "HBAR",
-      "pair": "HBARUSDT",
-      "direction": "LONG",
-      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
-      "setupName": "Range Low Demand Reaction (Long)",
-      "entryLow": 0.05481,
-      "entryHigh": 0.05468,
-      "initialStopLoss": 0.05404,
-      "stopLoss": 0.05404,
-      "tp1": 0.05596,
-      "tp2": 0.05821,
-      "rr": 5.51,
-      "stopDistancePct": 1.17,
-      "tp1Hit": false,
-      "lastCheckedPrice": 0.05468,
-      "sizing": {
-        "baseEquityUsdt": 1000,
-        "riskAmountUsdt": 10,
-        "notionalSizeUsdt": 854.7,
-        "suggestedIsolatedLeverage": "2x",
-        "executionPlan": "Entry 0.05481 - 0.05468 | SL 0.05404 (-1.17%) | TP1 0.05596 (Close 60%, geser SL ke Break-Even) | TP2 0.05821"
-      },
-      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
-    },
-    {
       "id": "TRB-LONG-1795108684157",
       "createdAt": "2026-11-19T17:18:04.157Z",
       "symbol": "TRB",
@@ -102,13 +156,13 @@
       "entryLow": 12.57,
       "entryHigh": 12.56,
       "initialStopLoss": 12.5223,
-      "stopLoss": 12.5223,
+      "stopLoss": 12.565000000000001,
       "tp1": 12.6355,
       "tp2": 12.967,
       "rr": 10.78,
       "stopDistancePct": 0.3,
-      "tp1Hit": false,
-      "lastCheckedPrice": 12.56,
+      "tp1Hit": true,
+      "lastCheckedPrice": 12.63,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,
@@ -117,7 +171,9 @@
         "executionPlan": "Entry 12.57 - 12.56 | SL 12.5223 (-0.3%) | TP1 12.6355 (Close 60%, geser SL ke Break-Even) | TP2 12.967"
       },
       "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
-    },
+    }
+  ],
+  "closedSignals": [
     {
       "id": "SOL-SHORT-1795069397567",
       "createdAt": "2026-11-19T06:23:17.567Z",
@@ -143,8 +199,42 @@
         "suggestedIsolatedLeverage": "6x",
         "executionPlan": "Entry 74.91 - 74.9756 | SL 75.1726 (-0.35%) | TP1 74.3848 (Close 60%, geser SL ke Break-Even) | TP2 71.2832"
       },
-      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan.",
+      "status": "TP1_EXPIRED_PROFIT",
+      "closedAt": "2026-11-19T23:43:02.545Z",
+      "exitPrice": 73.16,
+      "realizedR": 0.9
+    },
+    {
+      "id": "HBAR-LONG-1795108684157",
+      "createdAt": "2026-11-19T17:18:04.157Z",
+      "symbol": "HBAR",
+      "pair": "HBARUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 0.05481,
+      "entryHigh": 0.05468,
+      "initialStopLoss": 0.05404,
+      "stopLoss": 0.05404,
+      "tp1": 0.05596,
+      "tp2": 0.05821,
+      "rr": 5.51,
+      "stopDistancePct": 1.17,
+      "tp1Hit": false,
+      "lastCheckedPrice": 0.05468,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 854.7,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 0.05481 - 0.05468 | SL 0.05404 (-1.17%) | TP1 0.05596 (Close 60%, geser SL ke Break-Even) | TP2 0.05821"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan.",
+      "status": "STOPPED_OUT",
+      "closedAt": "2026-11-19T23:43:02.545Z",
+      "exitPrice": 0.05404,
+      "realizedR": -1
     }
-  ],
-  "closedSignals": []
+  ]
 }

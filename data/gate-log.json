@@ -1,44 +1,43 @@
 {
-  "updatedAt": "2026-11-20T13:26:57.281Z",
+  "updatedAt": "2026-11-20T21:27:13.823Z",
   "logs": [
     {
-      "timestamp": "2026-11-20T13:26:57.277Z",
+      "timestamp": "2026-11-20T21:27:13.818Z",
       "symbol": "BTC",
-      "price": 61482.2,
+      "price": 58697.11,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "REJECTED_BY_GATE",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 4x (batas maksimal @eliz883 adalah 2x pantulan).",
         "STOP TOO TIGHT: Jarak SL 0.16% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.278Z",
+      "timestamp": "2026-11-20T21:27:13.819Z",
       "symbol": "ETH",
-      "price": 1732.96,
+      "price": 1610.44,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "REJECTED_BY_GATE",
       "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.18% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
+        "STOP TOO TIGHT: Jarak SL 0.16% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.278Z",
+      "timestamp": "2026-11-20T21:27:13.819Z",
       "symbol": "SOL",
-      "price": 70.79,
+      "price": 67.92,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.19% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.278Z",
+      "timestamp": "2026-11-20T21:27:13.820Z",
       "symbol": "PEPE",
-      "price": 0.00000353,
+      "price": 0.0000034,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -47,20 +46,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.278Z",
+      "timestamp": "2026-11-20T21:27:13.820Z",
       "symbol": "INJ",
-      "price": 6.223,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 6.15,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.278Z",
+      "timestamp": "2026-11-20T21:27:13.820Z",
       "symbol": "LTC",
-      "price": 41.3,
+      "price": 40.07,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -69,9 +68,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.279Z",
+      "timestamp": "2026-11-20T21:27:13.821Z",
       "symbol": "TRB",
-      "price": 12.18,
+      "price": 11.78,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -80,9 +79,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.279Z",
+      "timestamp": "2026-11-20T21:27:13.821Z",
       "symbol": "HBAR",
-      "price": 0.05292,
+      "price": 0.0508,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -91,9 +90,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.279Z",
+      "timestamp": "2026-11-20T21:27:13.821Z",
       "symbol": "ARB",
-      "price": 0.1172,
+      "price": 0.1121,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -102,9 +101,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-20T13:26:57.279Z",
+      "timestamp": "2026-11-20T21:27:13.822Z",
       "symbol": "SUI",
-      "price": 0.6781,
+      "price": 0.6377,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",

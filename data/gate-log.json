@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-11-21T02:43:59.358Z",
+  "updatedAt": "2026-11-21T10:16:07.561Z",
   "logs": [
     {
-      "timestamp": "2026-11-21T02:43:59.353Z",
+      "timestamp": "2026-11-21T10:16:07.292Z",
       "symbol": "BTC",
-      "price": 58643.88,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
-      "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.17% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.354Z",
-      "symbol": "ETH",
-      "price": 1619,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
-      "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.15% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.354Z",
-      "symbol": "SOL",
-      "price": 68.54,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "APPROVED_TRIGGER",
-      "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.354Z",
-      "symbol": "PEPE",
-      "price": 0.00000343,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "APPROVED_TRIGGER",
-      "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.355Z",
-      "symbol": "INJ",
-      "price": 6.298,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "APPROVED_TRIGGER",
-      "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.355Z",
-      "symbol": "LTC",
-      "price": 40.26,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "REJECTED_BY_GATE",
-      "reasons": [
-        "STOP TOO TIGHT: Jarak SL 0.17% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
-      ]
-    },
-    {
-      "timestamp": "2026-11-21T02:43:59.355Z",
-      "symbol": "TRB",
-      "price": 12,
+      "price": 57930.03,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -79,9 +13,75 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T02:43:59.355Z",
+      "timestamp": "2026-11-21T10:16:07.293Z",
+      "symbol": "ETH",
+      "price": 1636.03,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
+      "reasons": [
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.293Z",
+      "symbol": "SOL",
+      "price": 68.07,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
+      "reasons": [
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.557Z",
+      "symbol": "PEPE",
+      "price": 0.00000331,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
+      "reasons": [
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.558Z",
+      "symbol": "INJ",
+      "price": 6.094,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
+      "reasons": [
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.558Z",
+      "symbol": "LTC",
+      "price": 38.76,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
+      "reasons": [
+        "STOP TOO TIGHT: Jarak SL 0.2% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.558Z",
+      "symbol": "TRB",
+      "price": 11.68,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
+      "reasons": [
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+      ]
+    },
+    {
+      "timestamp": "2026-11-21T10:16:07.559Z",
       "symbol": "HBAR",
-      "price": 0.05104,
+      "price": 0.04936,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -90,9 +90,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T02:43:59.356Z",
+      "timestamp": "2026-11-21T10:16:07.559Z",
       "symbol": "ARB",
-      "price": 0.1126,
+      "price": 0.1068,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -101,9 +101,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T02:43:59.356Z",
+      "timestamp": "2026-11-21T10:16:07.559Z",
       "symbol": "SUI",
-      "price": 0.6394,
+      "price": 0.6191,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",

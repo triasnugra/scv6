@@ -1,21 +1,22 @@
 {
-  "updatedAt": "2026-11-22T02:34:06.259Z",
+  "updatedAt": "2026-11-22T10:20:52.752Z",
   "logs": [
     {
-      "timestamp": "2026-11-22T02:34:05.918Z",
+      "timestamp": "2026-11-22T10:20:52.748Z",
       "symbol": "BTC",
-      "price": 59644.22,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 60879.51,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan).",
+        "STOP TOO TIGHT: Jarak SL 0.15% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:05.919Z",
+      "timestamp": "2026-11-22T10:20:52.749Z",
       "symbol": "ETH",
-      "price": 1675.57,
+      "price": 1711.07,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -24,9 +25,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:05.919Z",
+      "timestamp": "2026-11-22T10:20:52.749Z",
       "symbol": "SOL",
-      "price": 69.83,
+      "price": 70.49,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -35,9 +36,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:05.919Z",
+      "timestamp": "2026-11-22T10:20:52.749Z",
       "symbol": "PEPE",
-      "price": 0.0000034,
+      "price": 0.00000342,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -46,20 +47,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.254Z",
+      "timestamp": "2026-11-22T10:20:52.749Z",
       "symbol": "INJ",
-      "price": 5.933,
-      "setup": "LIQUIDITY_SWEEP_RECLAIM",
-      "direction": "LONG",
-      "status": "APPROVED_TRIGGER",
+      "price": 6.124,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
       "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.254Z",
+      "timestamp": "2026-11-22T10:20:52.749Z",
       "symbol": "LTC",
-      "price": 39.62,
+      "price": 39.77,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -68,20 +69,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.254Z",
+      "timestamp": "2026-11-22T10:20:52.750Z",
       "symbol": "TRB",
-      "price": 12.09,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 12.26,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.254Z",
+      "timestamp": "2026-11-22T10:20:52.750Z",
       "symbol": "HBAR",
-      "price": 0.051,
+      "price": 0.05143,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -90,9 +91,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.255Z",
+      "timestamp": "2026-11-22T10:20:52.750Z",
       "symbol": "ARB",
-      "price": 0.1128,
+      "price": 0.1139,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -101,9 +102,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T02:34:06.255Z",
+      "timestamp": "2026-11-22T10:20:52.750Z",
       "symbol": "SUI",
-      "price": 0.6439,
+      "price": 0.66,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",

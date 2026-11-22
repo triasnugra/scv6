@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:34:06.258Z",
+  "updatedAt": "2026-11-22T10:20:52.752Z",
   "stats": {
     "totalClosed": 32,
     "wins": 0,
@@ -21,13 +21,13 @@
       "entryLow": 5.926,
       "entryHigh": 5.933,
       "initialStopLoss": 5.9051,
-      "stopLoss": 5.9051,
+      "stopLoss": 5.9295,
       "tp1": 5.9887,
       "tp2": 6.8195,
       "rr": 31.81,
       "stopDistancePct": 0.47,
-      "tp1Hit": false,
-      "lastCheckedPrice": 5.933,
+      "tp1Hit": true,
+      "lastCheckedPrice": 6.124,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-21T22:27:14.869Z",
+  "updatedAt": "2026-11-22T02:34:06.259Z",
   "logs": [
     {
-      "timestamp": "2026-11-21T22:27:14.240Z",
+      "timestamp": "2026-11-22T02:34:05.918Z",
       "symbol": "BTC",
-      "price": 60241.48,
+      "price": 59644.22,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.240Z",
+      "timestamp": "2026-11-22T02:34:05.919Z",
       "symbol": "ETH",
-      "price": 1683.4,
+      "price": 1675.57,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -24,9 +24,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.241Z",
+      "timestamp": "2026-11-22T02:34:05.919Z",
       "symbol": "SOL",
-      "price": 70.28,
+      "price": 69.83,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -35,9 +35,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.241Z",
+      "timestamp": "2026-11-22T02:34:05.919Z",
       "symbol": "PEPE",
-      "price": 0.00000341,
+      "price": 0.0000034,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -46,9 +46,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.862Z",
+      "timestamp": "2026-11-22T02:34:06.254Z",
       "symbol": "INJ",
-      "price": 5.991,
+      "price": 5.933,
       "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.863Z",
+      "timestamp": "2026-11-22T02:34:06.254Z",
       "symbol": "LTC",
-      "price": 39.77,
+      "price": 39.62,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.863Z",
+      "timestamp": "2026-11-22T02:34:06.254Z",
       "symbol": "TRB",
-      "price": 12.2,
+      "price": 12.09,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -79,9 +79,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.863Z",
+      "timestamp": "2026-11-22T02:34:06.254Z",
       "symbol": "HBAR",
-      "price": 0.05153,
+      "price": 0.051,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -90,9 +90,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.864Z",
+      "timestamp": "2026-11-22T02:34:06.255Z",
       "symbol": "ARB",
-      "price": 0.1132,
+      "price": 0.1128,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -101,9 +101,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-21T22:27:14.864Z",
+      "timestamp": "2026-11-22T02:34:06.255Z",
       "symbol": "SUI",
-      "price": 0.6456,
+      "price": 0.6439,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",

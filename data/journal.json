@@ -1,15 +1,44 @@
 {
-  "updatedAt": "2026-11-21T22:27:14.869Z",
+  "updatedAt": "2026-11-22T02:34:06.258Z",
   "stats": {
-    "totalClosed": 31,
+    "totalClosed": 32,
     "wins": 0,
     "breakevenOrPartial": 12,
-    "losses": 19,
-    "winRatePct": 38.7,
-    "netRMultiple": -8.2,
-    "expectancyR": -0.26
+    "losses": 20,
+    "winRatePct": 37.5,
+    "netRMultiple": -9.2,
+    "expectancyR": -0.29
   },
   "activeSignals": [
+    {
+      "id": "INJ-LONG-1795314846259",
+      "createdAt": "2026-11-22T02:34:06.259Z",
+      "symbol": "INJ",
+      "pair": "INJUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 5.926,
+      "entryHigh": 5.933,
+      "initialStopLoss": 5.9051,
+      "stopLoss": 5.9051,
+      "tp1": 5.9887,
+      "tp2": 6.8195,
+      "rr": 31.81,
+      "stopDistancePct": 0.47,
+      "tp1Hit": false,
+      "lastCheckedPrice": 5.933,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 2127.66,
+        "suggestedIsolatedLeverage": "5x",
+        "executionPlan": "Entry 5.926 - 5.933 | SL 5.9051 (-0.47%) | TP1 5.9887 (Close 60%, geser SL ke Break-Even) | TP2 6.8195"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    }
+  ],
+  "closedSignals": [
     {
       "id": "INJ-LONG-1795300034869",
       "createdAt": "2026-11-21T22:27:14.869Z",
@@ -35,10 +64,12 @@
         "suggestedIsolatedLeverage": "6x",
         "executionPlan": "Entry 5.9858 - 5.991 | SL 5.97 (-0.35%) | TP1 6.0329 (Close 60%, geser SL ke Break-Even) | TP2 7.1046"
       },
-      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
-    }
-  ],
-  "closedSignals": [
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan.",
+      "status": "STOPPED_OUT",
+      "closedAt": "2026-11-22T02:34:06.259Z",
+      "exitPrice": 5.97,
+      "realizedR": -1
+    },
     {
       "id": "PEPE-LONG-1795256167561",
       "createdAt": "2026-11-21T10:16:07.561Z",

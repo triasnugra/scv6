@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:58:45.784Z",
+  "updatedAt": "2026-11-22T23:31:56.289Z",
   "stats": {
     "totalClosed": 33,
     "wins": 0,
@@ -10,6 +10,33 @@
     "expectancyR": -0.25
   },
   "activeSignals": [
+    {
+      "id": "SOL-SHORT-1795390316289",
+      "createdAt": "2026-11-22T23:31:56.289Z",
+      "symbol": "SOL",
+      "pair": "SOLUSDT",
+      "direction": "SHORT",
+      "setupCode": "DEVIATION_REJECTION_SHORT",
+      "setupName": "Supply Wall Rejection (Short)",
+      "entryLow": 70.68,
+      "entryHigh": 70.7866,
+      "initialStopLoss": 71.1065,
+      "stopLoss": 71.1065,
+      "tp1": 69.827,
+      "tp2": 65.0646,
+      "rr": 13.17,
+      "stopDistancePct": 0.6,
+      "tp1Hit": false,
+      "lastCheckedPrice": 70.68,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 1666.67,
+        "suggestedIsolatedLeverage": "4x",
+        "executionPlan": "Entry 70.68 - 70.7866 | SL 71.1065 (-0.6%) | TP1 69.827 (Close 60%, geser SL ke Break-Even) | TP2 65.0646"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    },
     {
       "id": "SUI-SHORT-1795370325784",
       "createdAt": "2026-11-22T17:58:45.784Z",
@@ -27,7 +54,7 @@
       "rr": 17.41,
       "stopDistancePct": 0.59,
       "tp1Hit": false,
-      "lastCheckedPrice": 0.6577,
+      "lastCheckedPrice": 0.6562,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,

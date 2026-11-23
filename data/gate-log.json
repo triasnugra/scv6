@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-22T23:31:56.289Z",
+  "updatedAt": "2026-11-23T04:01:42.413Z",
   "logs": [
     {
-      "timestamp": "2026-11-22T23:31:56.286Z",
+      "timestamp": "2026-11-23T04:01:42.408Z",
       "symbol": "BTC",
-      "price": 61220,
+      "price": 61288.01,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "REJECTED_BY_GATE",
@@ -13,21 +13,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.286Z",
+      "timestamp": "2026-11-23T04:01:42.409Z",
       "symbol": "ETH",
-      "price": 1723.86,
+      "price": 1732.56,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "REJECTED_BY_GATE",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 4x (batas maksimal @eliz883 adalah 2x pantulan).",
-        "STOP TOO TIGHT: Jarak SL 0.17% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
+        "STOP TOO TIGHT: Jarak SL 0.19% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.286Z",
+      "timestamp": "2026-11-23T04:01:42.409Z",
       "symbol": "SOL",
-      "price": 70.68,
+      "price": 71.37,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -36,9 +35,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.287Z",
+      "timestamp": "2026-11-23T04:01:42.410Z",
       "symbol": "PEPE",
-      "price": 0.0000034,
+      "price": 0.00000339,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -47,9 +46,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.287Z",
+      "timestamp": "2026-11-23T04:01:42.410Z",
       "symbol": "INJ",
-      "price": 6.228,
+      "price": 6.205,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -58,20 +57,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.287Z",
+      "timestamp": "2026-11-23T04:01:42.410Z",
       "symbol": "LTC",
-      "price": 40.15,
+      "price": 40.33,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "REJECTED_BY_GATE",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
+        "ZONE EXHAUSTED: Level sudah diuji 5x (batas maksimal @eliz883 adalah 2x pantulan)."
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.287Z",
+      "timestamp": "2026-11-23T04:01:42.411Z",
       "symbol": "TRB",
-      "price": 12.15,
+      "price": 12.14,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -80,31 +79,31 @@
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.287Z",
+      "timestamp": "2026-11-23T04:01:42.411Z",
       "symbol": "HBAR",
-      "price": 0.05157,
-      "setup": "DEVIATION_REJECTION_SHORT",
-      "direction": "SHORT",
-      "status": "REJECTED_BY_GATE",
+      "price": 0.0513,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.288Z",
+      "timestamp": "2026-11-23T04:01:42.411Z",
       "symbol": "ARB",
-      "price": 0.1143,
+      "price": 0.1153,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
-      "status": "REJECTED_BY_GATE",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-22T23:31:56.288Z",
+      "timestamp": "2026-11-23T04:01:42.412Z",
       "symbol": "SUI",
-      "price": 0.6562,
+      "price": 0.6557,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",

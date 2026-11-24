@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T14:39:45.012Z",
+  "updatedAt": "2026-11-24T01:54:44.893Z",
   "stats": {
     "totalClosed": 37,
     "wins": 0,
@@ -9,7 +9,35 @@
     "netRMultiple": -12.3,
     "expectancyR": -0.33
   },
-  "activeSignals": [],
+  "activeSignals": [
+    {
+      "id": "PEPE-LONG-1795485284893",
+      "createdAt": "2026-11-24T01:54:44.893Z",
+      "symbol": "PEPE",
+      "pair": "PEPEUSDT",
+      "direction": "LONG",
+      "setupCode": "EMA_FLIP_SQUEEZE",
+      "setupName": "1H EMA Ribbon Flip & Squeeze Breakout (Long)",
+      "entryLow": 0.00000347,
+      "entryHigh": 0.0000035,
+      "initialStopLoss": 0.0000034,
+      "stopLoss": 0.0000034,
+      "tp1": 0.00000368,
+      "tp2": 0.00000378,
+      "rr": 2.8,
+      "stopDistancePct": 2.86,
+      "tp1Hit": false,
+      "lastCheckedPrice": 0.0000035,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 349.65,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 0.00000347 - 0.0000035 | SL 0.0000034 (-2.86%) | TP1 0.00000368 (Close 60%, geser SL ke Break-Even) | TP2 0.00000378"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    }
+  ],
   "closedSignals": [
     {
       "id": "SUI-SHORT-1795370325784",

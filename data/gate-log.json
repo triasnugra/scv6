@@ -1,44 +1,57 @@
 {
-  "updatedAt": "2026-11-24T01:54:44.893Z",
+  "updatedAt": "2026-11-24T12:05:53.034Z",
   "logs": [
     {
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "timestamp": "2026-11-24T12:05:53.028Z",
       "symbol": "BTC",
-      "price": 61234.73,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 60296.25,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 4x (batas maksimal @eliz883 adalah 2x pantulan).",
+        "STOP TOO TIGHT: Jarak SL 0.15% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "timestamp": "2026-11-24T12:05:53.029Z",
       "symbol": "ETH",
-      "price": 1711.1,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 1699.6,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 6x (batas maksimal @eliz883 adalah 2x pantulan).",
+        "STOP TOO TIGHT: Jarak SL 0.18% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "timestamp": "2026-11-24T12:05:53.029Z",
       "symbol": "SOL",
-      "price": 72.1,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 70.73,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 8x (batas maksimal @eliz883 adalah 2x pantulan)."
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "symbol": "PEPE",
       "price": 0.0000035,
-      "setup": "EMA_FLIP_SQUEEZE",
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
+      "reasons": [
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+      ]
+    },
+    {
+      "timestamp": "2026-11-24T12:05:53.030Z",
+      "symbol": "INJ",
+      "price": 6.069,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
       "direction": "LONG",
       "status": "APPROVED_TRIGGER",
       "reasons": [
@@ -46,20 +59,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.890Z",
-      "symbol": "INJ",
-      "price": 6.262,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
-      "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
-      ]
-    },
-    {
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "symbol": "LTC",
-      "price": 41.71,
+      "price": 41.18,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -68,9 +70,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "symbol": "TRB",
-      "price": 12.82,
+      "price": 12.5,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -79,36 +81,36 @@
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "symbol": "HBAR",
-      "price": 0.05268,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.05123,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "symbol": "ARB",
-      "price": 0.1149,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.1137,
+      "setup": "ELIZ_FIB_075_BOUNCE",
+      "direction": "LONG",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "symbol": "SUI",
-      "price": 0.6777,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.6588,
+      "setup": "LIQUIDITY_SWEEP_RECLAIM",
+      "direction": "LONG",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "ZONE EXHAUSTED: Level sudah diuji 5x (batas maksimal @eliz883 adalah 2x pantulan)."
       ]
     }
   ]

@@ -1,181 +1,252 @@
 {
   "engine": "ELIZ-SCALP // HYDRO ENGINE v1.0",
   "methodology": "@eliz883 Liquidity Sweeps, Triggers, Custom Fibs (0.25/0.5/0.75) & Orderbook Confluence",
-  "lastUpdatedUtc": "2026-11-24T01:54:44.893Z",
+  "lastUpdatedUtc": "2026-11-24T12:05:53.033Z",
   "marketRegime": {
-    "btcPrice": 61234.73,
-    "btcRangeHigh": 64952.92,
+    "btcPrice": 60296.25,
+    "btcRangeHigh": 64603.12,
     "btcRangeLow": 55130,
-    "btcRelativePos": 0.621,
+    "btcRelativePos": 0.545,
     "regime": "CHOPPY_RANGE",
     "altcoinBias": "ALTCOIN_RANGE_EXTREMES_ONLY"
   },
   "summary": {
     "scannedCount": 10,
-    "approvedTriggersCount": 1,
-    "waitOrRejectedCount": 9
+    "approvedTriggersCount": 3,
+    "waitOrRejectedCount": 7
   },
   "assets": [
     {
       "symbol": "BTC",
       "pair": "BTCUSDT",
       "category": "MAJOR",
-      "price": 61234.73,
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "price": 60296.25,
+      "timestamp": "2026-11-24T12:05:53.028Z",
       "structure": {
         "range1hHigh": 64603.12,
-        "range1hLow": 58768.51,
-        "relativePosition": 0.44,
-        "inNoTradeMidRange": true,
+        "range1hLow": 59390.86,
+        "relativePosition": 0.198,
+        "inNoTradeMidRange": false,
         "mondayHigh": 64603.12,
         "mondayLow": 60386,
-        "fib075": 60227.16,
-        "fib0786": 60017.12,
-        "ema20_1h": 61487.72,
-        "ema50_1h": 61166.62,
-        "supportTaps": 2,
+        "fib075": 60693.93,
+        "fib0786": 60506.28,
+        "ema20_1h": 60665.54,
+        "ema50_1h": 60845.33,
+        "supportTaps": 4,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 61227.23,
-          "usd": 163515,
-          "strength": 18.2
+          "price": 60293.54,
+          "usd": 95811,
+          "strength": 12
         },
         "askWall": {
-          "price": 61234.74,
-          "usd": 491519,
-          "strength": 18.8
+          "price": 60307.31,
+          "usd": 121331,
+          "strength": 12.2
         },
-        "imbalanceRatio": 0.34,
+        "imbalanceRatio": 0.79,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.66,
+        "volumeSpike15m": 1.92,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000078118,
-          "hlOpenInterestUsd": 2259495940.981674
+          "hlFundingRate": -0.0000039593,
+          "hlOpenInterestUsd": 2240040903.16836
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 60272.96,
+        "entryHigh": 60296.25,
+        "stopLoss": 60203.1,
+        "tp1": 60482.55,
+        "tp2": 64409.31,
+        "rr": 44.16,
+        "stopDistancePct": 0.15,
+        "zoneTaps": 4,
+        "confidenceScore": 82,
+        "confluences": [
+          "Whale Bid Wall $95,811 (12x)",
+          "Volume Absorption Spike (1.92x)"
+        ]
+      },
       "gate": {
         "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "status": "REJECTED_BY_GATE",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "ZONE EXHAUSTED: Level sudah diuji 4x (batas maksimal @eliz883 adalah 2x pantulan).",
+          "STOP TOO TIGHT: Jarak SL 0.15% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 6666.67,
+          "suggestedIsolatedLeverage": "14x",
+          "executionPlan": "Entry 60272.96 - 60296.25 | SL 60203.1 (-0.15%) | TP1 60482.55 (Close 60%, geser SL ke Break-Even) | TP2 64409.31"
+        }
       }
     },
     {
       "symbol": "ETH",
       "pair": "ETHUSDT",
       "category": "MAJOR",
-      "price": 1711.1,
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "price": 1699.6,
+      "timestamp": "2026-11-24T12:05:53.029Z",
       "structure": {
         "range1hHigh": 1845.07,
-        "range1hLow": 1648.35,
-        "relativePosition": 0.319,
+        "range1hLow": 1669,
+        "relativePosition": 0.191,
         "inNoTradeMidRange": false,
         "mondayHigh": 1845.07,
         "mondayLow": 1696.5,
-        "fib075": 1697.53,
-        "fib0786": 1690.45,
-        "ema20_1h": 1728.28,
-        "ema50_1h": 1719.59,
-        "supportTaps": 3,
+        "fib075": 1713.02,
+        "fib0786": 1706.68,
+        "ema20_1h": 1706.09,
+        "ema50_1h": 1710.83,
+        "supportTaps": 6,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 1710.76,
-          "usd": 118027,
-          "strength": 8.3
+          "price": 1699.05,
+          "usd": 202069,
+          "strength": 8.5
         },
         "askWall": {
-          "price": 1711.22,
-          "usd": 119240,
-          "strength": 5.7
+          "price": 1700,
+          "usd": 108140,
+          "strength": 13.3
         },
-        "imbalanceRatio": 0.67,
+        "imbalanceRatio": 2.88,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.59,
+        "volumeSpike15m": 1.5,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000032849,
-          "hlOpenInterestUsd": 1015471378.5771588
+          "hlFundingRate": 8.176e-7,
+          "hlOpenInterestUsd": 1030345228.00368
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 1698.83,
+        "entryHigh": 1699.6,
+        "stopLoss": 1696.5,
+        "tp1": 1705.8,
+        "tp2": 1839.53,
+        "rr": 45.16,
+        "stopDistancePct": 0.18,
+        "zoneTaps": 6,
+        "confidenceScore": 82,
+        "confluences": [
+          "Monday Low Liquidity Sweep Reclaimed",
+          "Whale Bid Wall $202,069 (8.5x)"
+        ]
+      },
       "gate": {
         "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "status": "REJECTED_BY_GATE",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "ZONE EXHAUSTED: Level sudah diuji 6x (batas maksimal @eliz883 adalah 2x pantulan).",
+          "STOP TOO TIGHT: Jarak SL 0.18% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 5555.56,
+          "suggestedIsolatedLeverage": "12x",
+          "executionPlan": "Entry 1698.83 - 1699.6 | SL 1696.5 (-0.18%) | TP1 1705.8 (Close 60%, geser SL ke Break-Even) | TP2 1839.53"
+        }
       }
     },
     {
       "symbol": "SOL",
       "pair": "SOLUSDT",
       "category": "MAJOR",
-      "price": 72.1,
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "price": 70.73,
+      "timestamp": "2026-11-24T12:05:53.029Z",
       "structure": {
         "range1hHigh": 78.48,
-        "range1hLow": 68.74,
-        "relativePosition": 0.357,
+        "range1hLow": 69.78,
+        "relativePosition": 0.129,
         "inNoTradeMidRange": false,
         "mondayHigh": 78.48,
         "mondayLow": 69.89,
-        "fib075": 71.175,
-        "fib0786": 70.8244,
-        "ema20_1h": 72.6489,
-        "ema50_1h": 71.8919,
-        "supportTaps": 2,
+        "fib075": 71.955,
+        "fib0786": 71.6418,
+        "ema20_1h": 71.606,
+        "ema50_1h": 71.6242,
+        "supportTaps": 8,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 72.08,
-          "usd": 220758,
-          "strength": 5.4
+          "price": 70.64,
+          "usd": 291262,
+          "strength": 7.4
         },
         "askWall": {
-          "price": 72.16,
-          "usd": 177325,
-          "strength": 4.3
+          "price": 70.76,
+          "usd": 221427,
+          "strength": 4.8
         },
-        "imbalanceRatio": 0.96,
+        "imbalanceRatio": 0.84,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.68,
+        "volumeSpike15m": 2.08,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000031137,
-          "hlOpenInterestUsd": 302660314.0693202
+          "hlFundingRate": -0.0000165613,
+          "hlOpenInterestUsd": 302018685.61509985
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 70.681,
+        "entryHigh": 70.73,
+        "stopLoss": 70.534,
+        "tp1": 71.1219,
+        "tp2": 78.2446,
+        "rr": 38.35,
+        "stopDistancePct": 0.28,
+        "zoneTaps": 8,
+        "confidenceScore": 82,
+        "confluences": [
+          "Whale Bid Wall $291,262 (7.4x)",
+          "Volume Absorption Spike (2.08x)"
+        ]
+      },
       "gate": {
         "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "status": "REJECTED_BY_GATE",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "ZONE EXHAUSTED: Level sudah diuji 8x (batas maksimal @eliz883 adalah 2x pantulan)."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 3571.43,
+          "suggestedIsolatedLeverage": "8x",
+          "executionPlan": "Entry 70.681 - 70.73 | SL 70.534 (-0.28%) | TP1 71.1219 (Close 60%, geser SL ke Break-Even) | TP2 78.2446"
+        }
       }
     },
     {
@@ -183,57 +254,114 @@
       "pair": "PEPEUSDT",
       "category": "SCALP_FAV",
       "price": 0.0000035,
-      "timestamp": "2026-11-24T01:54:44.890Z",
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "structure": {
         "range1hHigh": 0.00000377,
         "range1hLow": 0.00000331,
-        "relativePosition": 0.304,
-        "inNoTradeMidRange": false,
+        "relativePosition": 0.391,
+        "inNoTradeMidRange": true,
         "mondayHigh": 0.00000377,
         "mondayLow": 0.00000331,
         "fib075": 0.00000343,
         "fib0786": 0.00000341,
-        "ema20_1h": 0.00000347,
-        "ema50_1h": 0.00000346,
+        "ema20_1h": 0.00000349,
+        "ema50_1h": 0.00000347,
         "supportTaps": 3,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
-        "bidWall": null,
+        "bidWall": {
+          "price": 0.00000344,
+          "usd": 541838,
+          "strength": 2.4
+        },
         "askWall": {
           "price": 0.00000351,
-          "usd": 331693,
-          "strength": 2.8
+          "usd": 271205,
+          "strength": 2.9
         },
-        "imbalanceRatio": 1.71,
+        "imbalanceRatio": 2.42,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 1.73,
+        "volumeSpike15m": 1.41,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000286065,
-          "hlOpenInterestUsd": 15019675.79256
+          "hlFundingRate": -0.0000348639,
+          "hlOpenInterestUsd": 14769056.233086
+        }
+      },
+      "candidateSetup": null,
+      "gate": {
+        "approved": false,
+        "status": "WAIT_NO_TRIGGER",
+        "reasons": [
+          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        ],
+        "positionSizing": null
+      }
+    },
+    {
+      "symbol": "INJ",
+      "pair": "INJUSDT",
+      "category": "SCALP_FAV",
+      "price": 6.069,
+      "timestamp": "2026-11-24T12:05:53.030Z",
+      "structure": {
+        "range1hHigh": 7.028,
+        "range1hLow": 6.014,
+        "relativePosition": 0.083,
+        "inNoTradeMidRange": false,
+        "mondayHigh": 7.028,
+        "mondayLow": 6.076,
+        "fib075": 6.2675,
+        "fib0786": 6.231,
+        "ema20_1h": 6.2451,
+        "ema50_1h": 6.2873,
+        "supportTaps": 1,
+        "resistanceTaps": 1
+      },
+      "liquidity": {
+        "primaryExchange": "BINANCE",
+        "bidWall": {
+          "price": 6.062,
+          "usd": 31487,
+          "strength": 5.7
+        },
+        "askWall": {
+          "price": 6.087,
+          "usd": 28170,
+          "strength": 5.5
+        },
+        "imbalanceRatio": 1.04,
+        "fundingRatePct": 0,
+        "openInterestUsd": 0,
+        "volumeSpike15m": 0.9,
+        "venuesActive": {
+          "bybit": false,
+          "binance": true,
+          "hyperliquid": true,
+          "hlFundingRate": -0.0000204836,
+          "hlOpenInterestUsd": 4732113.4795200005
         }
       },
       "candidateSetup": {
         "direction": "LONG",
-        "setupCode": "EMA_FLIP_SQUEEZE",
-        "setupName": "1H EMA Ribbon Flip & Squeeze Breakout (Long)",
-        "entryLow": 0.00000347,
-        "entryHigh": 0.0000035,
-        "stopLoss": 0.0000034,
-        "tp1": 0.00000368,
-        "tp2": 0.00000378,
-        "rr": 2.8,
-        "stopDistancePct": 2.86,
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 6.076,
+        "entryHigh": 6.069,
+        "stopLoss": 6.0529,
+        "tp1": 6.1012,
+        "tp2": 7.0069,
+        "rr": 58.28,
+        "stopDistancePct": 0.27,
         "zoneTaps": 1,
-        "confidenceScore": 74,
+        "confidenceScore": 75,
         "confluences": [
-          "1H Candle Flip & Close di atas EMA 20/50",
-          "Volume Breakout Confirmation (1.73x)"
+          "Whale Bid Wall $31,487 (5.7x)"
         ]
       },
       "gate": {
@@ -245,114 +373,60 @@
         "positionSizing": {
           "baseEquityUsdt": 1000,
           "riskAmountUsdt": 10,
-          "notionalSizeUsdt": 349.65,
-          "suggestedIsolatedLeverage": "2x",
-          "executionPlan": "Entry 0.00000347 - 0.0000035 | SL 0.0000034 (-2.86%) | TP1 0.00000368 (Close 60%, geser SL ke Break-Even) | TP2 0.00000378"
+          "notionalSizeUsdt": 3703.7,
+          "suggestedIsolatedLeverage": "8x",
+          "executionPlan": "Entry 6.076 - 6.069 | SL 6.0529 (-0.27%) | TP1 6.1012 (Close 60%, geser SL ke Break-Even) | TP2 7.0069"
         }
       },
       "aiReview": {
         "mode": "DETERMINISTIC_QUANT_ONLY",
         "aiVerdict": "EXECUTE",
-        "confidence": 74,
+        "confidence": 75,
         "tacticalNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
-      }
-    },
-    {
-      "symbol": "INJ",
-      "pair": "INJUSDT",
-      "category": "SCALP_FAV",
-      "price": 6.262,
-      "timestamp": "2026-11-24T01:54:44.890Z",
-      "structure": {
-        "range1hHigh": 7.028,
-        "range1hLow": 5.864,
-        "relativePosition": 0.337,
-        "inNoTradeMidRange": false,
-        "mondayHigh": 7.028,
-        "mondayLow": 6.076,
-        "fib075": 6.155,
-        "fib0786": 6.1131,
-        "ema20_1h": 6.4066,
-        "ema50_1h": 6.3489,
-        "supportTaps": 2,
-        "resistanceTaps": 1
-      },
-      "liquidity": {
-        "primaryExchange": "BINANCE",
-        "bidWall": {
-          "price": 6.251,
-          "usd": 28977,
-          "strength": 4.1
-        },
-        "askWall": {
-          "price": 6.287,
-          "usd": 23767,
-          "strength": 5.1
-        },
-        "imbalanceRatio": 1.53,
-        "fundingRatePct": 0,
-        "openInterestUsd": 0,
-        "volumeSpike15m": 1.86,
-        "venuesActive": {
-          "bybit": false,
-          "binance": true,
-          "hyperliquid": true,
-          "hlFundingRate": -0.0000204679,
-          "hlOpenInterestUsd": 4750852.074000001
-        }
-      },
-      "candidateSetup": null,
-      "gate": {
-        "approved": false,
-        "status": "WAIT_NO_TRIGGER",
-        "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
-        ],
-        "positionSizing": null
       }
     },
     {
       "symbol": "LTC",
       "pair": "LTCUSDT",
       "category": "SCALP_FAV",
-      "price": 41.71,
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "price": 41.18,
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "structure": {
         "range1hHigh": 43.69,
-        "range1hLow": 38.9,
-        "relativePosition": 0.557,
+        "range1hLow": 39.52,
+        "relativePosition": 0.42,
         "inNoTradeMidRange": true,
         "mondayHigh": 43.69,
         "mondayLow": 39.62,
-        "fib075": 40.0975,
-        "fib0786": 39.9251,
-        "ema20_1h": 41.3739,
-        "ema50_1h": 40.9004,
-        "supportTaps": 2,
+        "fib075": 40.5625,
+        "fib0786": 40.4124,
+        "ema20_1h": 41.3696,
+        "ema50_1h": 41.0741,
+        "supportTaps": 5,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 41.67,
-          "usd": 24009,
-          "strength": 4.6
+          "price": 41.1,
+          "usd": 22832,
+          "strength": 5.2
         },
         "askWall": {
-          "price": 41.75,
-          "usd": 14824,
-          "strength": 4
+          "price": 41.25,
+          "usd": 23653,
+          "strength": 5.2
         },
-        "imbalanceRatio": 1.4,
+        "imbalanceRatio": 1,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 1.26,
+        "volumeSpike15m": 1.21,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
           "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 13621196.313600002
+          "hlOpenInterestUsd": 13096670.322999999
         }
       },
       "candidateSetup": null,
@@ -369,44 +443,44 @@
       "symbol": "TRB",
       "pair": "TRBUSDT",
       "category": "SCALP_FAV",
-      "price": 12.82,
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "price": 12.5,
+      "timestamp": "2026-11-24T12:05:53.030Z",
       "structure": {
         "range1hHigh": 13.35,
-        "range1hLow": 11.92,
-        "relativePosition": 0.531,
+        "range1hLow": 11.99,
+        "relativePosition": 0.39,
         "inNoTradeMidRange": true,
         "mondayHigh": 13.35,
         "mondayLow": 11.99,
-        "fib075": 12.2775,
-        "fib0786": 12.226,
-        "ema20_1h": 12.6167,
-        "ema50_1h": 12.4317,
+        "fib075": 12.33,
+        "fib0786": 12.281,
+        "ema20_1h": 12.6128,
+        "ema50_1h": 12.5002,
         "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 12.64,
-          "usd": 10363,
-          "strength": 3.9
+          "price": 12.31,
+          "usd": 11165,
+          "strength": 4.7
         },
         "askWall": {
-          "price": 13.25,
-          "usd": 25119,
-          "strength": 11.5
+          "price": 12.78,
+          "usd": 6546,
+          "strength": 3.8
         },
-        "imbalanceRatio": 1.04,
+        "imbalanceRatio": 1.43,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.49,
+        "volumeSpike15m": 0.71,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
           "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 310612.1655
+          "hlOpenInterestUsd": 302649.23478600004
         }
       },
       "candidateSetup": null,
@@ -423,162 +497,244 @@
       "symbol": "HBAR",
       "pair": "HBARUSDT",
       "category": "SCALP_FAV",
-      "price": 0.05268,
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "price": 0.05123,
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "structure": {
         "range1hHigh": 0.05653,
-        "range1hLow": 0.05037,
-        "relativePosition": 0.36,
+        "range1hLow": 0.05045,
+        "relativePosition": 0.171,
         "inNoTradeMidRange": false,
         "mondayHigh": 0.05653,
         "mondayLow": 0.05045,
-        "fib075": 0.05191,
-        "fib0786": 0.05169,
-        "ema20_1h": 0.05282,
-        "ema50_1h": 0.05237,
-        "supportTaps": 4,
+        "fib075": 0.05197,
+        "fib0786": 0.05175,
+        "ema20_1h": 0.05219,
+        "ema50_1h": 0.05222,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.05221,
-          "usd": 54698,
-          "strength": 12.2
+          "price": 0.05078,
+          "usd": 54500,
+          "strength": 11.8
         },
         "askWall": {
-          "price": 0.05314,
-          "usd": 55530,
-          "strength": 13.4
+          "price": 0.05171,
+          "usd": 55703,
+          "strength": 12.9
         },
-        "imbalanceRatio": 1.1,
+        "imbalanceRatio": 1.09,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 1.21,
+        "volumeSpike15m": 2.42,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
           "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 5312514.665304
+          "hlOpenInterestUsd": 5088033.777156
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 0.0511,
+        "entryHigh": 0.05123,
+        "stopLoss": 0.0507,
+        "tp1": 0.05228,
+        "tp2": 0.05636,
+        "rr": 9.75,
+        "stopDistancePct": 1.03,
+        "zoneTaps": 2,
+        "confidenceScore": 82,
+        "confluences": [
+          "Whale Bid Wall $54,500 (11.8x)",
+          "Volume Absorption Spike (2.42x)"
+        ]
+      },
       "gate": {
-        "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "approved": true,
+        "status": "APPROVED_TRIGGER",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 970.87,
+          "suggestedIsolatedLeverage": "2x",
+          "executionPlan": "Entry 0.0511 - 0.05123 | SL 0.0507 (-1.03%) | TP1 0.05228 (Close 60%, geser SL ke Break-Even) | TP2 0.05636"
+        }
+      },
+      "aiReview": {
+        "mode": "DETERMINISTIC_QUANT_ONLY",
+        "aiVerdict": "EXECUTE",
+        "confidence": 82,
+        "tacticalNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
       }
     },
     {
       "symbol": "ARB",
       "pair": "ARBUSDT",
       "category": "ALT",
-      "price": 0.1149,
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "price": 0.1137,
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "structure": {
         "range1hHigh": 0.1235,
-        "range1hLow": 0.1102,
-        "relativePosition": 0.203,
+        "range1hLow": 0.1103,
+        "relativePosition": 0.311,
         "inNoTradeMidRange": false,
         "mondayHigh": 0.1235,
         "mondayLow": 0.1103,
-        "fib075": 0.11353,
-        "fib0786": 0.11305,
-        "ema20_1h": 0.11406,
-        "ema50_1h": 0.11441,
-        "supportTaps": 3,
+        "fib075": 0.1136,
+        "fib0786": 0.11312,
+        "ema20_1h": 0.11424,
+        "ema50_1h": 0.1144,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.1146,
-          "usd": 47974,
-          "strength": 5.7
+          "price": 0.1134,
+          "usd": 35136,
+          "strength": 4.9
         },
         "askWall": {
-          "price": 0.1151,
-          "usd": 24372,
-          "strength": 6.2
+          "price": 0.1142,
+          "usd": 26327,
+          "strength": 5.2
         },
-        "imbalanceRatio": 2.07,
+        "imbalanceRatio": 1.43,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 1.02,
+        "volumeSpike15m": 2.07,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000155057,
-          "hlOpenInterestUsd": 7151432.3592
+          "hlFundingRate": -0.0000176079,
+          "hlOpenInterestUsd": 6818924.99844
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "ELIZ_FIB_075_BOUNCE",
+        "setupName": "Eliz Custom Fib 0.75 Retest Bounce (Long)",
+        "entryLow": 0.1136,
+        "entryHigh": 0.1137,
+        "stopLoss": 0.11279,
+        "tp1": 0.1169,
+        "tp2": 0.1202,
+        "rr": 7.11,
+        "stopDistancePct": 0.8,
+        "zoneTaps": 2,
+        "confidenceScore": 88,
+        "confluences": [
+          "Retest Zona Custom Fib 0.75 (0.1136)",
+          "Invalidasi Ketat di bawah Fib 0.786 (0.11312)",
+          "Bid Wall Support $35,136"
+        ]
+      },
       "gate": {
-        "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "approved": true,
+        "status": "APPROVED_TRIGGER",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 1250,
+          "suggestedIsolatedLeverage": "3x",
+          "executionPlan": "Entry 0.1136 - 0.1137 | SL 0.11279 (-0.8%) | TP1 0.1169 (Close 60%, geser SL ke Break-Even) | TP2 0.1202"
+        }
+      },
+      "aiReview": {
+        "mode": "DETERMINISTIC_QUANT_ONLY",
+        "aiVerdict": "EXECUTE",
+        "confidence": 88,
+        "tacticalNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
       }
     },
     {
       "symbol": "SUI",
       "pair": "SUIUSDT",
       "category": "ALT",
-      "price": 0.6777,
-      "timestamp": "2026-11-24T01:54:44.891Z",
+      "price": 0.6588,
+      "timestamp": "2026-11-24T12:05:53.031Z",
       "structure": {
         "range1hHigh": 0.7337,
-        "range1hLow": 0.6337,
-        "relativePosition": 0.401,
-        "inNoTradeMidRange": true,
+        "range1hLow": 0.6408,
+        "relativePosition": 0.217,
+        "inNoTradeMidRange": false,
         "mondayHigh": 0.7337,
         "mondayLow": 0.6408,
-        "fib075": 0.6587,
-        "fib0786": 0.6551,
-        "ema20_1h": 0.67693,
-        "ema50_1h": 0.66932,
-        "supportTaps": 3,
+        "fib075": 0.66403,
+        "fib0786": 0.66068,
+        "ema20_1h": 0.66867,
+        "ema50_1h": 0.66793,
+        "supportTaps": 5,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.6747,
-          "usd": 90928,
-          "strength": 8.8
+          "price": 0.6558,
+          "usd": 85864,
+          "strength": 10.4
         },
         "askWall": {
-          "price": 0.6807,
-          "usd": 89496,
-          "strength": 11.5
+          "price": 0.6618,
+          "usd": 87477,
+          "strength": 10
         },
-        "imbalanceRatio": 1.35,
+        "imbalanceRatio": 0.97,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.61,
+        "volumeSpike15m": 2.4,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000097235,
-          "hlOpenInterestUsd": 15917824.774740003
+          "hlFundingRate": 0.0000025563,
+          "hlOpenInterestUsd": 15408373.905539999
         }
       },
-      "candidateSetup": null,
+      "candidateSetup": {
+        "direction": "LONG",
+        "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+        "setupName": "Range Low Demand Reaction (Long)",
+        "entryLow": 0.6578,
+        "entryHigh": 0.6588,
+        "stopLoss": 0.65482,
+        "tp1": 0.66677,
+        "tp2": 0.7315,
+        "rr": 18.25,
+        "stopDistancePct": 0.6,
+        "zoneTaps": 5,
+        "confidenceScore": 82,
+        "confluences": [
+          "Whale Bid Wall $85,864 (10.4x)",
+          "Volume Absorption Spike (2.4x)"
+        ]
+      },
       "gate": {
         "approved": false,
-        "status": "WAIT_NO_TRIGGER",
+        "status": "REJECTED_BY_GATE",
         "reasons": [
-          "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+          "ZONE EXHAUSTED: Level sudah diuji 5x (batas maksimal @eliz883 adalah 2x pantulan)."
         ],
-        "positionSizing": null
+        "positionSizing": {
+          "baseEquityUsdt": 1000,
+          "riskAmountUsdt": 10,
+          "notionalSizeUsdt": 1666.67,
+          "suggestedIsolatedLeverage": "4x",
+          "executionPlan": "Entry 0.6578 - 0.6588 | SL 0.65482 (-0.6%) | TP1 0.66677 (Close 60%, geser SL ke Break-Even) | TP2 0.7315"
+        }
       }
     }
   ]

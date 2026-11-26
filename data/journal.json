@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T05:30:35.330Z",
+  "updatedAt": "2026-11-26T15:49:01.352Z",
   "stats": {
     "totalClosed": 57,
     "wins": 1,
@@ -10,6 +10,33 @@
     "expectancyR": -0.2
   },
   "activeSignals": [
+    {
+      "id": "TRB-SHORT-1795708141352",
+      "createdAt": "2026-11-26T15:49:01.352Z",
+      "symbol": "TRB",
+      "pair": "TRBUSDT",
+      "direction": "SHORT",
+      "setupCode": "DEVIATION_REJECTION_SHORT",
+      "setupName": "Supply Wall Rejection (Short)",
+      "entryLow": 12.89,
+      "entryHigh": 12.9725,
+      "initialStopLoss": 13.2198,
+      "stopLoss": 13.2198,
+      "tp1": 12.3953,
+      "tp2": 11.8346,
+      "rr": 3.2,
+      "stopDistancePct": 2.56,
+      "tp1Hit": false,
+      "lastCheckedPrice": 12.89,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 390.63,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 12.89 - 12.9725 | SL 13.2198 (-2.56%) | TP1 12.3953 (Close 60%, geser SL ke Break-Even) | TP2 11.8346"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    },
     {
       "id": "HBAR-SHORT-1795671035330",
       "createdAt": "2026-11-26T05:30:35.330Z",
@@ -27,7 +54,7 @@
       "rr": 9.11,
       "stopDistancePct": 1.04,
       "tp1Hit": false,
-      "lastCheckedPrice": 0.05385,
+      "lastCheckedPrice": 0.05357,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,
@@ -54,7 +81,7 @@
       "rr": 9.69,
       "stopDistancePct": 0.95,
       "tp1Hit": false,
-      "lastCheckedPrice": 43.65,
+      "lastCheckedPrice": 43.41,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,
@@ -75,13 +102,13 @@
       "entryLow": 0.00000357,
       "entryHigh": 0.00000357,
       "initialStopLoss": 0.00000359,
-      "stopLoss": 0.00000359,
+      "stopLoss": 0.00000357,
       "tp1": 0.00000354,
       "tp2": 0.00000326,
       "rr": 20.19,
       "stopDistancePct": 0.43,
-      "tp1Hit": false,
-      "lastCheckedPrice": 0.00000357,
+      "tp1Hit": true,
+      "lastCheckedPrice": 0.00000346,
       "sizing": {
         "baseEquityUsdt": 1000,
         "riskAmountUsdt": 10,

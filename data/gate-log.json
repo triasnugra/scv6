@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-11-27T00:21:25.394Z",
+  "updatedAt": "2026-11-27T08:56:03.149Z",
   "logs": [
     {
-      "timestamp": "2026-11-27T00:21:25.365Z",
+      "timestamp": "2026-11-27T08:56:03.143Z",
       "symbol": "BTC",
-      "price": 60606,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 61724.79,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "STOP TOO TIGHT: Jarak SL 0.16% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.365Z",
+      "timestamp": "2026-11-27T08:56:03.143Z",
       "symbol": "ETH",
-      "price": 1690.92,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 1730.82,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "STOP TOO TIGHT: Jarak SL 0.18% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.390Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "SOL",
-      "price": 71.15,
+      "price": 73.35,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -35,20 +35,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.390Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "PEPE",
-      "price": 0.00000349,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.00000361,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.391Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "INJ",
-      "price": 6.227,
+      "price": 6.498,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -57,20 +57,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.391Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "LTC",
-      "price": 43.92,
+      "price": 44.54,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
-      "status": "APPROVED_TRIGGER",
+      "status": "REJECTED_BY_GATE",
       "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+        "STOP TOO TIGHT: Jarak SL 0.22% terlalu rapat (< 0.25%), rawan terkena noise & fee bursa."
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.391Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "TRB",
-      "price": 13.53,
+      "price": 13.44,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -79,9 +79,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.392Z",
+      "timestamp": "2026-11-27T08:56:03.144Z",
       "symbol": "HBAR",
-      "price": 0.05409,
+      "price": 0.05532,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -90,9 +90,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.392Z",
+      "timestamp": "2026-11-27T08:56:03.145Z",
       "symbol": "ARB",
-      "price": 0.114,
+      "price": 0.1186,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -101,9 +101,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-27T00:21:25.392Z",
+      "timestamp": "2026-11-27T08:56:03.145Z",
       "symbol": "SUI",
-      "price": 0.6693,
+      "price": 0.6871,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",

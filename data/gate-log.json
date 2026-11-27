@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T15:49:01.352Z",
+  "updatedAt": "2026-11-27T00:21:25.394Z",
   "logs": [
     {
-      "timestamp": "2026-11-26T15:49:01.329Z",
+      "timestamp": "2026-11-27T00:21:25.365Z",
       "symbol": "BTC",
-      "price": 60552.01,
+      "price": 60606,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.329Z",
+      "timestamp": "2026-11-27T00:21:25.365Z",
       "symbol": "ETH",
-      "price": 1689.63,
+      "price": 1690.92,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -24,20 +24,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.349Z",
+      "timestamp": "2026-11-27T00:21:25.390Z",
       "symbol": "SOL",
-      "price": 70.86,
+      "price": 71.15,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
-      "status": "REJECTED_BY_GATE",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "ZONE EXHAUSTED: Level sudah diuji 3x (batas maksimal @eliz883 adalah 2x pantulan)."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.349Z",
+      "timestamp": "2026-11-27T00:21:25.390Z",
       "symbol": "PEPE",
-      "price": 0.00000346,
+      "price": 0.00000349,
       "setup": "NONE",
       "direction": "WAIT",
       "status": "WAIT_NO_TRIGGER",
@@ -46,20 +46,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.349Z",
+      "timestamp": "2026-11-27T00:21:25.391Z",
       "symbol": "INJ",
-      "price": 6.116,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 6.227,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.349Z",
+      "timestamp": "2026-11-27T00:21:25.391Z",
       "symbol": "LTC",
-      "price": 43.41,
+      "price": 43.92,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -68,20 +68,20 @@
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.349Z",
+      "timestamp": "2026-11-27T00:21:25.391Z",
       "symbol": "TRB",
-      "price": 12.89,
-      "setup": "DEVIATION_REJECTION_SHORT",
-      "direction": "SHORT",
-      "status": "APPROVED_TRIGGER",
+      "price": 13.53,
+      "setup": "NONE",
+      "direction": "WAIT",
+      "status": "WAIT_NO_TRIGGER",
       "reasons": [
-        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
+        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.350Z",
+      "timestamp": "2026-11-27T00:21:25.392Z",
       "symbol": "HBAR",
-      "price": 0.05357,
+      "price": 0.05409,
       "setup": "DEVIATION_REJECTION_SHORT",
       "direction": "SHORT",
       "status": "APPROVED_TRIGGER",
@@ -90,25 +90,25 @@
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.350Z",
+      "timestamp": "2026-11-27T00:21:25.392Z",
       "symbol": "ARB",
-      "price": 0.1118,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.114,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     },
     {
-      "timestamp": "2026-11-26T15:49:01.350Z",
+      "timestamp": "2026-11-27T00:21:25.392Z",
       "symbol": "SUI",
-      "price": 0.6618,
-      "setup": "NONE",
-      "direction": "WAIT",
-      "status": "WAIT_NO_TRIGGER",
+      "price": 0.6693,
+      "setup": "DEVIATION_REJECTION_SHORT",
+      "direction": "SHORT",
+      "status": "APPROVED_TRIGGER",
       "reasons": [
-        "Belum ada Trigger Sweep/Flip/Fib 0.75 terkonfirmasi. @eliz883: Jangan menebak pasar, tunggu harga menjemput level."
+        "Semua kriteria Trigger, Invalidation ketat, R:R, & Likuiditas @eliz883 terpenuhi."
       ]
     }
   ]

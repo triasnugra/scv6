@@ -1,12 +1,12 @@
 {
   "engine": "ELIZ-SCALP // HYDRO ENGINE v1.0",
   "methodology": "@eliz883 Liquidity Sweeps, Triggers, Custom Fibs (0.25/0.5/0.75) & Orderbook Confluence",
-  "lastUpdatedUtc": "2026-11-27T18:45:25.063Z",
+  "lastUpdatedUtc": "2026-11-28T01:47:52.562Z",
   "marketRegime": {
-    "btcPrice": 59807.8,
+    "btcPrice": 60190.25,
     "btcRangeHigh": 64603.12,
     "btcRangeLow": 57300.38,
-    "btcRelativePos": 0.343,
+    "btcRelativePos": 0.396,
     "regime": "BEARISH_PRESSURE",
     "altcoinBias": "SHORT_SCALP_FAVORED"
   },
@@ -20,44 +20,44 @@
       "symbol": "BTC",
       "pair": "BTCUSDT",
       "category": "MAJOR",
-      "price": 59807.8,
-      "timestamp": "2026-11-27T18:45:25.060Z",
+      "price": 60190.25,
+      "timestamp": "2026-11-28T01:47:52.557Z",
       "structure": {
         "range1hHigh": 62248.91,
         "range1hLow": 58792.37,
-        "relativePosition": 0.329,
+        "relativePosition": 0.32,
         "inNoTradeMidRange": false,
         "mondayHigh": 64603.12,
         "mondayLow": 60386,
         "fib075": 59656.51,
         "fib0786": 59532.07,
-        "ema20_1h": 60719.51,
-        "ema50_1h": 60646.32,
+        "ema20_1h": 60317.65,
+        "ema50_1h": 60469.04,
         "supportTaps": 3,
         "resistanceTaps": 2
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 59803.01,
-          "usd": 162597,
-          "strength": 21.1
+          "price": 60190.24,
+          "usd": 189808,
+          "strength": 15
         },
         "askWall": {
-          "price": 59812.47,
-          "usd": 187799,
-          "strength": 13.3
+          "price": 60198.58,
+          "usd": 190317,
+          "strength": 22.6
         },
-        "imbalanceRatio": 0.56,
+        "imbalanceRatio": 1.53,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.14,
+        "volumeSpike15m": 0.95,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000039823,
-          "hlOpenInterestUsd": 2123099050.74552
+          "hlFundingRate": 0.0000049982,
+          "hlOpenInterestUsd": 2126176896.73256
         }
       },
       "candidateSetup": null,
@@ -74,44 +74,44 @@
       "symbol": "ETH",
       "pair": "ETHUSDT",
       "category": "MAJOR",
-      "price": 1667.49,
-      "timestamp": "2026-11-27T18:45:25.060Z",
+      "price": 1669.94,
+      "timestamp": "2026-11-28T01:47:52.557Z",
       "structure": {
         "range1hHigh": 1755.22,
         "range1hLow": 1634.03,
-        "relativePosition": 0.314,
+        "relativePosition": 0.228,
         "inNoTradeMidRange": false,
         "mondayHigh": 1845.07,
         "mondayLow": 1696.5,
         "fib075": 1664.33,
         "fib0786": 1659.96,
-        "ema20_1h": 1699.01,
-        "ema50_1h": 1698.71,
-        "supportTaps": 3,
+        "ema20_1h": 1681.85,
+        "ema50_1h": 1690.61,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 1667.06,
-          "usd": 115997,
-          "strength": 8
+          "price": 1669.5,
+          "usd": 129121,
+          "strength": 13.4
         },
         "askWall": {
-          "price": 1667.94,
-          "usd": 232007,
-          "strength": 12
+          "price": 1670.48,
+          "usd": 141496,
+          "strength": 7.5
         },
-        "imbalanceRatio": 0.78,
+        "imbalanceRatio": 0.52,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.16,
+        "volumeSpike15m": 0.45,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 1003577867.1559201
+          "hlFundingRate": 0.0000085556,
+          "hlOpenInterestUsd": 989241945.6466798
         }
       },
       "candidateSetup": null,
@@ -128,44 +128,44 @@
       "symbol": "SOL",
       "pair": "SOLUSDT",
       "category": "MAJOR",
-      "price": 71.84,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 72.15,
+      "timestamp": "2026-11-28T01:47:52.557Z",
       "structure": {
         "range1hHigh": 73.93,
-        "range1hLow": 69.23,
-        "relativePosition": 0.606,
+        "range1hLow": 69.71,
+        "relativePosition": 0.474,
         "inNoTradeMidRange": true,
         "mondayHigh": 78.48,
         "mondayLow": 69.89,
-        "fib075": 70.405,
-        "fib0786": 70.2358,
-        "ema20_1h": 72.2661,
-        "ema50_1h": 71.6173,
-        "supportTaps": 1,
+        "fib075": 70.765,
+        "fib0786": 70.6131,
+        "ema20_1h": 72.0631,
+        "ema50_1h": 71.6812,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 71.65,
-          "usd": 191248,
-          "strength": 5.3
+          "price": 71.96,
+          "usd": 180183,
+          "strength": 5.4
         },
         "askWall": {
-          "price": 72,
-          "usd": 225978,
-          "strength": 7.7
+          "price": 72.58,
+          "usd": 152007,
+          "strength": 5.6
         },
-        "imbalanceRatio": 1.21,
+        "imbalanceRatio": 1.26,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.12,
+        "volumeSpike15m": 0.39,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000042842,
-          "hlOpenInterestUsd": 293474927.51656
+          "hlFundingRate": 0.0000125,
+          "hlOpenInterestUsd": 289994710.2656399
         }
       },
       "candidateSetup": null,
@@ -182,12 +182,12 @@
       "symbol": "PEPE",
       "pair": "PEPEUSDT",
       "category": "SCALP_FAV",
-      "price": 0.00000351,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 0.00000359,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
         "range1hHigh": 0.00000367,
         "range1hLow": 0.00000337,
-        "relativePosition": 0.5,
+        "relativePosition": 0.6,
         "inNoTradeMidRange": true,
         "mondayHigh": 0.00000377,
         "mondayLow": 0.00000331,
@@ -201,17 +201,21 @@
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": null,
-        "askWall": null,
-        "imbalanceRatio": 1.12,
+        "askWall": {
+          "price": 0.00000366,
+          "usd": 410742,
+          "strength": 2.3
+        },
+        "imbalanceRatio": 0.83,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.25,
+        "volumeSpike15m": 1.35,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.000011178,
-          "hlOpenInterestUsd": 15093561.022514
+          "hlFundingRate": 0.0000100443,
+          "hlOpenInterestUsd": 15566977.895788
         }
       },
       "candidateSetup": null,
@@ -228,44 +232,44 @@
       "symbol": "INJ",
       "pair": "INJUSDT",
       "category": "SCALP_FAV",
-      "price": 6.341,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 6.345,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
         "range1hHigh": 6.571,
-        "range1hLow": 5.883,
-        "relativePosition": 0.728,
-        "inNoTradeMidRange": false,
+        "range1hLow": 6.008,
+        "relativePosition": 0.584,
+        "inNoTradeMidRange": true,
         "mondayHigh": 7.028,
         "mondayLow": 6.076,
-        "fib075": 6.055,
-        "fib0786": 6.0302,
-        "ema20_1h": 6.3543,
-        "ema50_1h": 6.2507,
-        "supportTaps": 2,
+        "fib075": 6.1487,
+        "fib0786": 6.1285,
+        "ema20_1h": 6.3478,
+        "ema50_1h": 6.2732,
+        "supportTaps": 3,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 6.313,
-          "usd": 42678,
-          "strength": 6.4
+          "price": 6.337,
+          "usd": 28001,
+          "strength": 4.4
         },
         "askWall": {
-          "price": 6.385,
-          "usd": 25858,
-          "strength": 5.3
+          "price": 6.367,
+          "usd": 28472,
+          "strength": 5.1
         },
-        "imbalanceRatio": 1.4,
+        "imbalanceRatio": 1.18,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.21,
+        "volumeSpike15m": 0.75,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000166113,
-          "hlOpenInterestUsd": 4722275.9994
+          "hlFundingRate": -0.0000362306,
+          "hlOpenInterestUsd": 4657068.3572
         }
       },
       "candidateSetup": null,
@@ -282,44 +286,44 @@
       "symbol": "LTC",
       "pair": "LTCUSDT",
       "category": "SCALP_FAV",
-      "price": 43.8,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 44.97,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
-        "range1hHigh": 44.88,
-        "range1hLow": 41.66,
-        "relativePosition": 0.705,
+        "range1hHigh": 45.68,
+        "range1hLow": 42.87,
+        "relativePosition": 0.698,
         "inNoTradeMidRange": false,
         "mondayHigh": 43.69,
         "mondayLow": 39.62,
-        "fib075": 42.465,
-        "fib0786": 42.3491,
-        "ema20_1h": 44.043,
-        "ema50_1h": 43.4941,
-        "supportTaps": 1,
-        "resistanceTaps": 3
+        "fib075": 43.5725,
+        "fib0786": 43.4713,
+        "ema20_1h": 44.3584,
+        "ema50_1h": 43.7716,
+        "supportTaps": 3,
+        "resistanceTaps": 0
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 43.76,
-          "usd": 31786,
-          "strength": 6
+          "price": 44.89,
+          "usd": 35600,
+          "strength": 5.5
         },
         "askWall": {
-          "price": 43.85,
-          "usd": 22695,
-          "strength": 4.8
+          "price": 45.08,
+          "usd": 20384,
+          "strength": 4.4
         },
-        "imbalanceRatio": 1.1,
+        "imbalanceRatio": 1.38,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.56,
+        "volumeSpike15m": 0.79,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000106928,
-          "hlOpenInterestUsd": 13996102.4014
+          "hlFundingRate": -0.0000128234,
+          "hlOpenInterestUsd": 14016448.345
         }
       },
       "candidateSetup": null,
@@ -336,44 +340,44 @@
       "symbol": "TRB",
       "pair": "TRBUSDT",
       "category": "SCALP_FAV",
-      "price": 13.32,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 13.28,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
         "range1hHigh": 13.97,
-        "range1hLow": 12.47,
-        "relativePosition": 0.573,
+        "range1hLow": 12.58,
+        "relativePosition": 0.518,
         "inNoTradeMidRange": true,
         "mondayHigh": 13.35,
         "mondayLow": 11.99,
-        "fib075": 12.845,
-        "fib0786": 12.791,
-        "ema20_1h": 13.3284,
-        "ema50_1h": 13.1362,
-        "supportTaps": 3,
+        "fib075": 12.9275,
+        "fib0786": 12.8775,
+        "ema20_1h": 13.32,
+        "ema50_1h": 13.1789,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 13.06,
-          "usd": 14840,
-          "strength": 6
+          "price": 13.02,
+          "usd": 6493,
+          "strength": 3.1
         },
         "askWall": {
-          "price": 13.77,
-          "usd": 7327,
-          "strength": 3.9
+          "price": 13.66,
+          "usd": 5011,
+          "strength": 3.1
         },
-        "imbalanceRatio": 1.35,
+        "imbalanceRatio": 1.13,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.24,
+        "volumeSpike15m": 2.18,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
           "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 330370.3347
+          "hlOpenInterestUsd": 327119.19058
         }
       },
       "candidateSetup": null,
@@ -390,44 +394,44 @@
       "symbol": "HBAR",
       "pair": "HBARUSDT",
       "category": "SCALP_FAV",
-      "price": 0.05373,
-      "timestamp": "2026-11-27T18:45:25.061Z",
+      "price": 0.05384,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
         "range1hHigh": 0.05596,
-        "range1hLow": 0.05072,
-        "relativePosition": 0.609,
-        "inNoTradeMidRange": true,
+        "range1hLow": 0.05273,
+        "relativePosition": 0.288,
+        "inNoTradeMidRange": false,
         "mondayHigh": 0.05653,
         "mondayLow": 0.05045,
-        "fib075": 0.05203,
-        "fib0786": 0.05184,
-        "ema20_1h": 0.05449,
-        "ema50_1h": 0.05383,
+        "fib075": 0.05354,
+        "fib0786": 0.05342,
+        "ema20_1h": 0.05418,
+        "ema50_1h": 0.05384,
         "supportTaps": 2,
         "resistanceTaps": 2
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.05323,
-          "usd": 108966,
-          "strength": 16.5
+          "price": 0.05334,
+          "usd": 108958,
+          "strength": 16.7
         },
         "askWall": {
-          "price": 0.05399,
-          "usd": 43787,
-          "strength": 10.4
+          "price": 0.05434,
+          "usd": 116233,
+          "strength": 19.3
         },
-        "imbalanceRatio": 1.53,
+        "imbalanceRatio": 1.11,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.53,
+        "volumeSpike15m": 0.79,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
           "hlFundingRate": 0.0000125,
-          "hlOpenInterestUsd": 5333764.0623159995
+          "hlOpenInterestUsd": 5515379.1084239995
         }
       },
       "candidateSetup": null,
@@ -444,44 +448,44 @@
       "symbol": "ARB",
       "pair": "ARBUSDT",
       "category": "ALT",
-      "price": 0.1144,
-      "timestamp": "2026-11-27T18:45:25.062Z",
+      "price": 0.1154,
+      "timestamp": "2026-11-28T01:47:52.558Z",
       "structure": {
         "range1hHigh": 0.1202,
         "range1hLow": 0.1099,
-        "relativePosition": 0.534,
+        "relativePosition": 0.466,
         "inNoTradeMidRange": true,
         "mondayHigh": 0.1235,
         "mondayLow": 0.1103,
         "fib075": 0.11247,
         "fib0786": 0.1121,
-        "ema20_1h": 0.11585,
-        "ema50_1h": 0.11475,
-        "supportTaps": 3,
+        "ema20_1h": 0.1154,
+        "ema50_1h": 0.1148,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.1142,
-          "usd": 52858,
-          "strength": 7.2
+          "price": 0.1151,
+          "usd": 48920,
+          "strength": 6.9
         },
         "askWall": {
-          "price": 0.1147,
-          "usd": 29164,
-          "strength": 6.4
+          "price": 0.1156,
+          "usd": 26061,
+          "strength": 6.2
         },
-        "imbalanceRatio": 1.65,
+        "imbalanceRatio": 1.69,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.1,
+        "volumeSpike15m": 0.28,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": -0.0000040365,
-          "hlOpenInterestUsd": 7297554.49108
+          "hlFundingRate": 0.0000042675,
+          "hlOpenInterestUsd": 7364960.645238001
         }
       },
       "candidateSetup": null,
@@ -498,44 +502,44 @@
       "symbol": "SUI",
       "pair": "SUIUSDT",
       "category": "ALT",
-      "price": 0.6719,
-      "timestamp": "2026-11-27T18:45:25.062Z",
+      "price": 0.6775,
+      "timestamp": "2026-11-28T01:47:52.559Z",
       "structure": {
         "range1hHigh": 0.6931,
-        "range1hLow": 0.6473,
-        "relativePosition": 0.603,
+        "range1hLow": 0.6496,
+        "relativePosition": 0.524,
         "inNoTradeMidRange": true,
         "mondayHigh": 0.7337,
         "mondayLow": 0.6408,
-        "fib075": 0.65875,
-        "fib0786": 0.6571,
-        "ema20_1h": 0.67678,
-        "ema50_1h": 0.67148,
-        "supportTaps": 3,
+        "fib075": 0.66047,
+        "fib0786": 0.65891,
+        "ema20_1h": 0.67526,
+        "ema50_1h": 0.67205,
+        "supportTaps": 2,
         "resistanceTaps": 1
       },
       "liquidity": {
         "primaryExchange": "BINANCE",
         "bidWall": {
-          "price": 0.6689,
-          "usd": 88731,
-          "strength": 9.6
+          "price": 0.6745,
+          "usd": 88320,
+          "strength": 9.8
         },
         "askWall": {
-          "price": 0.6749,
-          "usd": 88758,
-          "strength": 9.9
+          "price": 0.6805,
+          "usd": 89109,
+          "strength": 10.9
         },
-        "imbalanceRatio": 1.01,
+        "imbalanceRatio": 1.13,
         "fundingRatePct": 0,
         "openInterestUsd": 0,
-        "volumeSpike15m": 0.17,
+        "volumeSpike15m": 0.91,
         "venuesActive": {
           "bybit": false,
           "binance": true,
           "hyperliquid": true,
-          "hlFundingRate": 0.0000080793,
-          "hlOpenInterestUsd": 15637613.177760001
+          "hlFundingRate": 0.000003716,
+          "hlOpenInterestUsd": 15654699.66304
         }
       },
       "candidateSetup": null,

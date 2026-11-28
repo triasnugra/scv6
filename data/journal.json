@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T01:47:52.562Z",
+  "updatedAt": "2026-11-28T09:53:28.326Z",
   "stats": {
     "totalClosed": 71,
     "wins": 1,
@@ -9,7 +9,35 @@
     "netRMultiple": -11.92,
     "expectancyR": -0.17
   },
-  "activeSignals": [],
+  "activeSignals": [
+    {
+      "id": "TRB-LONG-1795859608326",
+      "createdAt": "2026-11-28T09:53:28.326Z",
+      "symbol": "TRB",
+      "pair": "TRBUSDT",
+      "direction": "LONG",
+      "setupCode": "LIQUIDITY_SWEEP_RECLAIM",
+      "setupName": "Range Low Demand Reaction (Long)",
+      "entryLow": 12.8752,
+      "entryHigh": 12.93,
+      "initialStopLoss": 12.7109,
+      "stopLoss": 12.7109,
+      "tp1": 13.33,
+      "tp2": 13.9281,
+      "rr": 4.56,
+      "stopDistancePct": 1.69,
+      "tp1Hit": false,
+      "lastCheckedPrice": 12.93,
+      "sizing": {
+        "baseEquityUsdt": 1000,
+        "riskAmountUsdt": 10,
+        "notionalSizeUsdt": 591.72,
+        "suggestedIsolatedLeverage": "2x",
+        "executionPlan": "Entry 12.8752 - 12.93 | SL 12.7109 (-1.69%) | TP1 13.33 (Close 60%, geser SL ke Break-Even) | TP2 13.9281"
+      },
+      "aiNote": "Tervalidasi otomatis oleh aturan kuantitatif @eliz883 (Sweep/Fib/EMA + Orderbook Wall + Strict Gate). Set GEMINI_API_KEY di GitHub Secrets untuk narasi AI tambahan."
+    }
+  ],
   "closedSignals": [
     {
       "id": "SOL-SHORT-1795769763148",
